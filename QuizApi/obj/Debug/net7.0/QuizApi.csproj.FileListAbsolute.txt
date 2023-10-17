@@ -8,6 +8,7 @@ C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\QuizApi.pdb
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\BCrypt.Net-Next.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
@@ -15,6 +16,9 @@ C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.Identit
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Scrutor.dll
+C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -40,7 +44,3 @@ C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\obj\Debug\net7.0\refint\QuizApi.dl
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\obj\Debug\net7.0\QuizApi.pdb
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\obj\Debug\net7.0\QuizApi.genruntimeconfig.cache
 C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\obj\Debug\net7.0\ref\QuizApi.dll
-C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Scrutor.dll
-C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
-C:\Users\abdul\dev\JWTAuth2\QuizUnity\QuizApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll

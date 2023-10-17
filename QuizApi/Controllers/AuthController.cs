@@ -23,9 +23,9 @@ public class AuthController : ControllerBase
     [HttpPost("Register")]
     public ActionResult<User> Register(UserDto dto)
     {
-        string passwordHash
+        string passwordHash 
             = BCrypt.Net.BCrypt.HashPassword(dto.Password);
-        
+
         user.Username = dto.Username;
         user.PasswordHash = passwordHash;
 
@@ -37,10 +37,10 @@ public class AuthController : ControllerBase
         if(user.Username != dto.Username)
             return BadRequest("User not found!");
         if(!BCrypt.Net.BCrypt.Verify(dto.Password, user.PasswordHash))
-            return BadRequest("Wrong password.");
+            return BadRequest("Wrong password!");
 
         var token = CreateToken(user);
-
+        
         return Ok(token);
     }
     private string CreateToken(User user)
@@ -51,14 +51,14 @@ public class AuthController : ControllerBase
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(
-            configuration.GetSection("AppSettings:Token").Value!));
+            configuration.GetSection("Settings:Token").Value!));
 
         var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
 
         var token = new JwtSecurityToken(
-            claims: claims,
-            expires: DateTime.Now.AddDays(1),
-            signingCredentials: cred);
+            claims:claims,
+            expires:DateTime.Now.AddDays(1),
+            signingCredentials:cred);
         
         var jwt = new JwtSecurityTokenHandler().WriteToken(token);
 
